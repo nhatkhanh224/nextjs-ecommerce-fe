@@ -1,46 +1,47 @@
-export default function ListProduct() {
+import React from "react";
+export default function ListProductList() {
   return (
     <>
     <div className="product-wrapper mt-5">
-        <div class="container mx-auto px-4">
-          <div class="grid grid-cols-4 gap-4">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-4 gap-4">
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"></img>
+              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"></img>
+              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"></img>
+              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"></img>
+              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"></img>
+              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"></img>
+              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"></img>
+              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"></img>
+              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
