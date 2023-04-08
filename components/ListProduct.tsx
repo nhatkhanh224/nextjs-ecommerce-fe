@@ -1,47 +1,88 @@
 import React from "react";
+import Image from 'next/image';
 export default function ListProductList() {
   return (
     <>
-    <div className="product-wrapper mt-5">
+      <div className="product-wrapper mt-5">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-4 gap-4">
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
+              <Image
+                src="https://oldsailor.com.vn/vnt_upload/product/10_2022/42e8aeff55ab93f5caba.jpg"
+                alt="Product image"
+                width={500}
+                height={500}
+              />
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
+              <Image
+                src="https://oldsailor.com.vn/vnt_upload/product/10_2022/42e8aeff55ab93f5caba.jpg"
+                alt="Product image"
+                width={500}
+                height={500}
+              />
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
+              <Image
+                src="https://oldsailor.com.vn/vnt_upload/product/10_2022/42e8aeff55ab93f5caba.jpg"
+                alt="Product image"
+                width={500}
+                height={500}
+              />
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
+              <Image
+                src="https://oldsailor.com.vn/vnt_upload/product/10_2022/42e8aeff55ab93f5caba.jpg"
+                alt="Product image"
+                width={500}
+                height={500}
+              />
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
+              <Image
+                src="https://oldsailor.com.vn/vnt_upload/product/10_2022/42e8aeff55ab93f5caba.jpg"
+                alt="Product image"
+                width={500}
+                height={500}
+              />
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
+              <Image
+                src="https://oldsailor.com.vn/vnt_upload/product/10_2022/42e8aeff55ab93f5caba.jpg"
+                alt="Product image"
+                width={500}
+                height={500}
+              />
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
+              <Image
+                src="https://oldsailor.com.vn/vnt_upload/product/10_2022/42e8aeff55ab93f5caba.jpg"
+                alt="Product image"
+                width={500}
+                height={500}
+              />
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
             <div className="product-item">
-              <img src="http://smakerclothing.com/upload/sanpham/dsc05779-8029.jpg"/>
+              <Image
+                src="https://oldsailor.com.vn/vnt_upload/product/10_2022/42e8aeff55ab93f5caba.jpg"
+                alt="Product image"
+                width={500}
+                height={500}
+              />
               <p className="text-center font-bold">TEE</p>
               <p className="text-center">100.000 VND</p>
             </div>
